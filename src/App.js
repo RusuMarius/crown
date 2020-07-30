@@ -1,24 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import './pages/scss/slider.scss'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Team from './pages/Team';
+import Contact from './pages/Contact';
+import Oferte from './pages/Oferte';
+import Homepage from './pages/Homepage';
+import Interventii from './pages/Interventii';
+import GhidMedical from './pages/GhidMedical';
+import ScrollToTop from './components/ScrollToTop'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Router>
+        <div className='main-body'>
+        <Navbar />
+          <div className='main-path'>
+            <Switch>
+              <Route path="/" component={Homepage} exact />
+              <Route path='/echipa' component={Team}/>
+              <Route path="/oferte" component={Oferte}/>
+              <Route path="/interventii" component={Interventii}/>
+              <Route path="/ghid-medical" component={GhidMedical}/>
+              <Route path="/contact" component={Contact}/>
+            </Switch>
+          </div>
+          <ScrollToTop />
+          <Footer />
+        </div>
+      </Router>
+
     </div>
   );
 }

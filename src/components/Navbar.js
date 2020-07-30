@@ -1,0 +1,71 @@
+import React from 'react';
+import {Link} from 'react-router-dom';
+import Logo from '../components/images/logo.png';
+
+class Navbar extends React.Component {
+    constructor() {
+        super()
+        this.state = {
+            scrolled: false,
+            isOpen:false,
+            isHovered: false
+        }
+    }
+
+    handleBurger=()=>{
+        this.setState({
+            isOpen:!this.state.isOpen,
+        })
+    }
+
+    closeNav=()=>{
+        this.setState({
+            isOpen:false
+        })
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', () => {
+            const isTop = window.scrollY < 117;
+
+            if(isTop !== true) {
+                this.setState({ scrolled: true })
+            } else {
+                this.setState({ scrolled: false })
+            }
+        })
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll')
+    }
+
+    render() {
+        return (
+
+            <div className={this.state.scrolled ? 'nav scrolled' : 'nav'}>
+                <div className="main-container">
+                <div className='logo-burger'>
+                    <Link className="logo" to="/" onClick={this.closeNav}><img className="logo-img" src={Logo} alt="logo" /></Link>
+                    <div className="burger" onClick={this.handleBurger}>
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                    <div className="bar"></div>
+                    </div>
+
+                </div>
+
+                <div className={this.state.isOpen ? "showNav menu-nav" : "menu-nav"}>
+                    <Link to="/echipa" onClick={this.closeNav}>Echipa</Link>
+                    <Link to="/oferte" onClick={this.closeNav}>Oferte</Link>
+                    <Link to="/interventii" onClick={this.closeNav}>Interventii</Link>
+                    <Link to="/ghid-medical" onClick={this.closeNav}>Ghid Medical</Link>
+                    <Link to="/contact" onClick={this.closeNav}>Contact</Link>
+                </div>
+                </div>
+          </div>
+        );
+    }
+}
+
+export default Navbar;
