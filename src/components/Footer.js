@@ -8,7 +8,6 @@ class Footer extends React.Component {
         return (
             <div className='footer'>
                 <div className='main-container'>
-                    <h2>footer</h2>
                     <div className="footer-box">
                         <div className="footer-item contact-links">
                             <h2>Contact</h2>

@@ -22,12 +22,12 @@ const responsive = {
   }
 };
 
-class Slider extends Component {
+class SliderOffers extends Component {
   _isMounted = false;
   constructor(props) {
     super(props);
     this.state = {
-      awsApiData: [],
+      apiImgs: [],
       loading: false,
       lightboxIsOpen: false,
       // selectedIndex: 0,
@@ -39,12 +39,12 @@ class Slider extends Component {
   componentDidMount() {
     this._isMounted = true;
     this.setState({ loading: true });
-    fetch("api/images-first.json")
+    fetch("api/images-offers.json")
       .then(data => data.json())
       .then(data =>
         this.setState(
           {
-            awsApiData: data.map(item => ({
+            apiImgs: data.map(item => ({
               ...item,
               source: item.download_url
             })),
@@ -92,7 +92,7 @@ class Slider extends Component {
               renderDotsOutside
               responsive={responsive}
             >
-              {Object.values(this.state.awsApiData).map((post, indx) => {
+              {Object.values(this.state.apiImgs).map((post, indx) => {
                 return (
                   <div className="mt-5" key={indx} onClick={() => this.toggleLightbox(post, indx)}>
                     <img
@@ -118,7 +118,7 @@ class Slider extends Component {
                     }}
                     currentIndex={this.state.selectedImage.index}
                     frameProps={{ autoSize: "height" }}
-                    views={this.state.awsApiData}
+                    views={this.state.apiImgs}
                   />
                 </Modal>
               ) : null}
@@ -130,4 +130,4 @@ class Slider extends Component {
   }
 }
 
-export default Slider;
+export default SliderOffers;

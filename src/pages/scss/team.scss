@@ -85,6 +85,10 @@
         .doctor-img {
             max-width: 250px;
             margin-left: 20px;
+            @media (max-width:550px) {
+                margin-left: 0;
+                margin-bottom: 20px;
+            }
             img {
                 display: block;
                 width: 100%;

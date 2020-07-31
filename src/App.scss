@@ -297,6 +297,7 @@
             background-color: #33a8bd;
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
+            border: 2px solid #33a8bd;
             margin-right: 10px;
             color: #fff;
             @media(max-width: 768px) {
@@ -306,6 +307,10 @@
               border-radius: 5px;
               text-align: center;
             }
+          }
+          .react-tabs__tab--selected {
+            background-color: #fff;
+            color: #33a8bd;
           }
           @media(max-width: 768px) {
             margin-bottom: 35px;
@@ -493,7 +498,7 @@
     left: 92%;
   }
   @media(max-width:640px) {
-    left: 86%;
+    left: 83%;
   }
 }
 
