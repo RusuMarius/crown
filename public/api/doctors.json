@@ -1,7 +1,7 @@
 [
     {
-        "url":"./images/clinic1.png",
-        "download_url":"./images/clinic1.png",
+        "url":"./images/elena.png",
+        "download_url":"./images/elena.png",
         "name": "Dr. Elena Hristea",
         "skills": [
             {
@@ -19,8 +19,18 @@
         ]
     },
     {
-        "url":"./images/clinic2.png",
-        "download_url":"./images/clinic2.png",
+        "url":"./images/mario.png",
+        "download_url":"./images/mario.png",
+        "name": "T.D. Mario Miliare",
+        "skills": [
+            {
+                "skill": "estetica dentara"
+            }
+        ]
+    },
+    {
+        "url":"./images/doctor-thumbnail.png",
+        "download_url":"./images/doctor-thumbnail.png",
         "name": "Dr. Olivian Caraivan",
         "skills": [
             {
@@ -32,8 +42,8 @@
         ]
     },
     {
-        "url":"./images/clinic3.png",
-        "download_url":"./images/clinic3.png",
+        "url":"./images/doctor-thumbnail.png",
+        "download_url":"./images/doctor-thumbnail.png",
         "name": "Dr. Lucian Birlog",
         "skills": [
             {
@@ -42,19 +52,34 @@
         ]
     },
     {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png",
+        "url":"./images/sonia.png",
+        "download_url":"./images/sonia.png",
         "name": "Dr. Sonia Khazaal",
         "skills": [
             {
                 "skill": "Specialist Pedodont"
             }
         ]
-    }
-    ,
+    },
     {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png",
+        "url":"./images/mirela.png",
+        "download_url":"./images/mirela.png",
+        "name": "Dr. Mirela Dragu",
+        "skills": [
+            {
+                "skill": "Stomatologie Generala"
+            },
+            {
+                "skill": "Protetica"
+            },
+            {
+                "skill": "Endodontie"
+            }
+        ]
+    },
+    {
+        "url":"./images/khaled.png",
+        "download_url":"./images/khaled.png",
         "name": "Dr. Khaled Ghieb",
         "skills": [
             {
@@ -70,8 +95,8 @@
     }
     ,
     {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png",
+        "url":"./images/george.png",
+        "download_url":"./images/george.png",
         "name": "Dr. George Hristea",
         "skills": [
             {
@@ -84,28 +109,10 @@
                 "skill": "Endodontie"
             }
         ]
-    }
-    ,
+    },
     {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png",
-        "name": "Dr. Mirela Dragu",
-        "skills": [
-            {
-                "skill": "Stomatologie Generala"
-            },
-            {
-                "skill": "Protetica"
-            },
-            {
-                "skill": "Endodontie"
-            }
-        ]
-    }
-    ,
-    {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png",
+        "url":"./images/iris.png",
+        "download_url":"./images/iris.png",
         "name": "Dr. Iris Popa",
         "skills": [
             {
@@ -118,8 +125,8 @@
     }
     ,
     {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png",
+        "url":"./images/elencu.png",
+        "download_url":"./images/elencu.png",
         "name": "Dr. Elena Elencu",
         "skills": [
             {
@@ -135,8 +142,8 @@
     }
     ,
     {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png",
+        "url":"./images/diana.png",
+        "download_url":"./images/diana.png",
         "name": "Diana Beclea",
         "skills": [
             {
@@ -146,8 +153,8 @@
     }
     ,
     {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png",
+        "url":"./images/raluca.png",
+        "download_url":"./images/raluca.png",
         "name": "Raluca Grosu",
         "skills": [
             {
@@ -160,8 +167,8 @@
     }
     ,
     {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png",
+        "url":"./images/gabriela.png",
+        "download_url":"./images/gabriela.png",
         "name": "Gabriela Stroe",
         "skills": [
             {
@@ -169,15 +176,5 @@
             }
         ]
     }
-    ,
-    {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png",
-        "name": "T.D. Mario Miliare",
-        "skills": [
-            {
-                "skill": "estetica dentara"
-            }
-        ]
-    }
+
 ]

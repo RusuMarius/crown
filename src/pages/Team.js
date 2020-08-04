@@ -7,8 +7,6 @@ class Team extends React.Component {
         return (
             <div>
             <div className="team-hero">
-
-
             </div>
                 <div className='main-container' id='team-box'>
                     <Doctor />

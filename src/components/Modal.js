@@ -3,15 +3,7 @@ import {Modal} from 'react-bootstrap';
 import Logo from '../components/images/logo.png';
 
 
-let lastShown = parseInt(localStorage.getItem('.modal-wrapper')); //EDIT: Added parseInt
-let maxTime = 5000; //ms (1 second)
-//if lastShown is undefined or enough time has passed
-if(!lastShown | lastShown + maxTime < Date.now()) {
 
-  //show it
-  //store the time to check next time the page is loaded
-  localStorage.setItem('.modal-wrapper', Date.now());
-}
 class ModalMain extends React.Component {
     constructor() {
         super();
@@ -22,7 +14,8 @@ class ModalMain extends React.Component {
     handleModal() {
         this.setState({
             show: !this.state.show
-        })
+        });
+
     }
 
     render() {

@@ -26,9 +26,15 @@
       font-weight: bold;
     }
     .contact-detail {
+      margin: 20px 0;
       color: #33a8bd;
       font-size: 19px;
-
+      p {
+        display: flex;
+        span {
+          max-width: 85%;
+        }
+      }
       .fa {
         font-size: 28px;
         width: 40px;
@@ -44,7 +50,7 @@
         font-size: 15px;
         .fa {
           font-size: 23px;
-          width: 25px;
+          width: 30px;
         }
       }
     }

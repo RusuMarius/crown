@@ -36,8 +36,8 @@ class Contact extends React.Component {
                                 mapElement={<div style={{ height: `100%` }} />}
                             />
                             <div className="contact-detail">
-                                <p><i class="fa fa-phone" aria-hidden="true"></i> Telefon: <a href="tel:021.423.35.95">021.423.35.95</a></p>
-                                <p><i class="fa fa-envelope" aria-hidden="true"></i> Email: <a href="mailto:custom_art_concept@yahoo.com">custom_art_concept@yahoo.com</a></p>
+                                <p><i class="fa fa-phone" aria-hidden="true"></i> <span>Telefon: <a href="tel:021.423.35.95">021.423.35.95</a></span></p>
+                                <p><i class="fa fa-envelope" aria-hidden="true"></i> <span>Email: <a href="mailto:custom_art_concept@yahoo.com">custom_art_concept@yahoo.com</a></span></p>
                                 <p><i class="fa fa-address-book" aria-hidden="true"></i> Adresa: str. Petre Ispirescu, nr. 89-91</p>
                             </div>
                         </div>
