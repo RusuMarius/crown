@@ -9,9 +9,10 @@ import Oferte from './pages/Oferte';
 import Homepage from './pages/Homepage';
 import Interventii from './pages/Interventii';
 import GhidMedical from './pages/GhidMedical';
-import ScrollToTop from './components/ScrollToTop'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 import ModalMain from './components/Modal'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 
 function App() {
