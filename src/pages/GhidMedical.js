@@ -149,7 +149,7 @@ Simptomele si semnele clinice ale parodontozei pot include :
             </TabPanel>
 
             <TabPanel>
-              <h2>Any content 3</h2>
+
               <div className="two-col">
                 <div className="simple-col">
                   <h2>Efectele adverse ale medicamentelor
