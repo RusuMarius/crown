@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import Logo from '../components/images/logo.png';
 
 class Navbar extends React.Component {
@@ -46,7 +46,7 @@ class Navbar extends React.Component {
             <div className={this.state.scrolled ? 'nav scrolled' : 'nav'}>
                 <div className="main-container">
                 <div className='logo-burger'>
-                    <Link className="logo" to="/" onClick={this.closeNav}><img className="logo-img" src={Logo} alt="logo" /></Link>
+                    <NavLink className="logo" to="/" onClick={this.closeNav}><img className="logo-img" src={Logo} alt="logo" /></NavLink>
                     <div className="burger" onClick={this.handleBurger}>
                     <div className="bar"></div>
                     <div className="bar"></div>
@@ -56,11 +56,11 @@ class Navbar extends React.Component {
                 </div>
 
                 <div className={this.state.isOpen ? "showNav menu-nav" : "menu-nav"}>
-                    <Link to="/echipa" onClick={this.closeNav}>Echipa</Link>
-                    <Link to="/oferte" onClick={this.closeNav}>Oferte</Link>
-                    <Link to="/interventii" onClick={this.closeNav}>Interventii</Link>
-                    <Link to="/ghid-medical" onClick={this.closeNav}>Ghid Medical</Link>
-                    <Link to="/contact" onClick={this.closeNav}>Contact</Link>
+                    <NavLink to="/echipa" onClick={this.closeNav}>Echipa</NavLink>
+                    <NavLink to="/oferte" onClick={this.closeNav}>Oferte</NavLink>
+                    <NavLink to="/interventii" onClick={this.closeNav}>Interventii</NavLink>
+                    <NavLink to="/ghid-medical" onClick={this.closeNav}>Ghid Medical</NavLink>
+                    <NavLink to="/contact" onClick={this.closeNav}>Contact</NavLink>
                 </div>
                 </div>
           </div>

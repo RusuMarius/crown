@@ -76,22 +76,12 @@ class Form extends React.Component {
       <div className='form-container'>
         <form onSubmit={this.formSubmit}>
           <div className='singleItem'>
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Nume</label>
             <input type="text" name='name'
             className='name'
-            placeholder='your name...'
+            placeholder='Nume...'
             value={this.state.name}
             onChange={this.handleName}
-            />
-          </div>
-
-          <div className='singleItem'>
-            <label htmlFor="subject">Subject</label>
-            <input type="text" name='subject'
-            className='subject'
-            placeholder='your subject...'
-            value={this.state.subject}
-            onChange={this.handleSubject}
             />
           </div>
 
@@ -99,16 +89,26 @@ class Form extends React.Component {
             <label htmlFor="email">Email</label>
             <input type="email" name='email'
             className='email'
-            placeholder='your email...'
+            placeholder='Email...'
             value={this.state.email}
             onChange={this.handleEmail}
             />
           </div>
 
+          <div className='singleItem'>
+            <label htmlFor="subject">Subiect</label>
+            <input type="text" name='subject'
+            className='subject'
+            placeholder='Subiect...'
+            value={this.state.subject}
+            onChange={this.handleSubject}
+            />
+          </div>
+
           <div className='singleItem text-area'>
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Mesaj</label>
             <textarea name="message" id="" cols="30" rows="5"
-            placeholder='your message...'
+            placeholder='Mesajul d-voastra...'
             value={this.state.message}
             onChange={this.handleMsg}
             ></textarea>

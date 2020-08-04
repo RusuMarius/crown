@@ -11,16 +11,17 @@ import Interventii from './pages/Interventii';
 import GhidMedical from './pages/GhidMedical';
 import ScrollToTop from './components/ScrollToTop'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import ModalMain from './components/Modal'
 
 
 function App() {
   return (
     <div className="App">
-
       <Router>
         <div className='main-body'>
         <Navbar />
           <div className='main-path'>
+          <ModalMain />
             <Switch>
               <Route path="/" component={Homepage} exact />
               <Route path='/echipa' component={Team}/>

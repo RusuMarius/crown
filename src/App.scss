@@ -54,6 +54,9 @@
         .logo-img {
           width: 100%;
           display: block;
+          @media(max-width:768px) {
+            max-width: 140px;
+          }
         }
       }
       .burger {
@@ -81,14 +84,12 @@
     .menu-nav {
       display: flex;
       justify-content: space-between;
-
-
       a {
         position: relative;
         text-decoration: none;
         padding: 5px;
         margin-left: 15px;
-        color: rgb(23, 144, 153);
+        color: rgb(26, 119, 126);
         font-size: 20px;
         font-style: italic;
         font-family: 'Cinzel', serif;
@@ -125,7 +126,18 @@
           transition: all 0.25s ease-in-out;
         }
       }
-
+      .active {
+        color: #33a8bd;
+        &:after {
+          content: '';
+          width: 100%;
+          height: 2px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background-color: #33a8bd;
+        }
+      }
       @media (max-width: 768px) {
         position: relative;
         width: 100%;
@@ -505,6 +517,7 @@
 .footer {
   padding: 40px 0;
   background-color: #33a8bd;
+
   color: #fff;
   .main-container {
     padding: 20px;
@@ -573,4 +586,40 @@
     font-weight: 100;
     font-size: 14px;
   }
+}
+.modal-dialog {
+  p {
+    margin: 0;
+  }
+  transform: translate(-50%, -50%)!important;
+  top: 50%;
+  left: 50%;
+  margin: 0!important;
+  .modal-header {
+    position: relative;
+    border: none;
+    text-align: center;
+    .logo-img {
+      max-width: 140px;
+      margin: auto;
+    }
+    button {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      padding: 0;
+      margin: 0;
+      color: #1d6c7a;
+      opacity: 1;
+      border: none;
+      font-size: 30px;
+      outline: transparent;
+    }
+  }
+  .modal-body {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
 }

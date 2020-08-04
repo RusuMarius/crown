@@ -107,7 +107,6 @@
 	.react-multiple-carousel__arrow {
 		border-radius: 8px;
 		z-index: 3;
-		border: 1px solid #fff;
 		min-height: 95px;
 		background: rgba(38, 226, 226, 0.5);
 		&:hover {
@@ -123,6 +122,14 @@
 			border-top-right-radius: 0;
 			border-bottom-right-radius: 0;
 		}
+		@media (max-width:768px) {
+			&:before {
+				max-width: 20px;
+			}
+			min-height: 75px;
+			min-width: 30px;
+		}
+
 	}
 }
 
