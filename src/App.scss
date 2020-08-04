@@ -54,6 +54,7 @@
         .logo-img {
           width: 100%;
           display: block;
+          max-width: 150px;
           @media(max-width:768px) {
             max-width: 140px;
           }
@@ -184,9 +185,12 @@
   flex-direction: column;
   justify-content: space-between;
   .main-path {
-    padding-top: 114px;
+    padding-top: 88px;
     flex-grow: 1;
     height: 100%;
+    @media (max-width: 768px) {
+      padding-top: 83px;
+    }
     .main-container {
       position: relative;
       padding: 30px 20px;
