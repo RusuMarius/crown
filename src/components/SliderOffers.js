@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import LightBox, { Modal, ModalGateway } from "react-images";
+import {Link} from 'react-router-dom';
 
 const responsive = {
   superLargeDesktop: {
@@ -77,7 +78,7 @@ class SliderOffers extends Component {
               showDots={false}
               arrows={true}
               autoPlaySpeed={3000}
-              autoPlay={true}
+              autoPlay={false}
               centerMode={false}
               className="slider"
               containerClass="container-with-dots"
@@ -94,13 +95,23 @@ class SliderOffers extends Component {
             >
               {Object.values(this.state.apiImgs).map((post, indx) => {
                 return (
-                  <div className="mt-5" key={indx} onClick={() => this.toggleLightbox(post, indx)}>
+                  <div className="mt-5" key={indx} id={post.id} onClick={() => this.toggleLightbox(post, indx)}>
                     <img
                       className="media-img card-img-top card-img-hero"
                       src={post.download_url}
                       alt="Alt text"
                       style={{ cursor: "pointer" }}
                     />
+                    <div className="offers-text">
+                      <p className='title'>{post.title}</p>
+                      <p className='offer'>
+                        {post.offer?<span>{post.offer}<br /></span>:null}
+                        {post.procent?<span className='procent'>{post.procent}<br /></span>:null}
+                        {post.person?<span className='person'>{post.person}</span>:null}
+                      </p>
+                      {post.button?<Link className='offer-cta' to='/contact'>{post.button}</Link>:null}
+
+                    </div>
                   </div>
                 );
               })}
