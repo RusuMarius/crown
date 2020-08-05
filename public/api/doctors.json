@@ -1,7 +1,7 @@
 [
     {
-        "url":"./images/elena.png",
-        "download_url":"./images/elena.png",
+        "url":"./images/elena.jpg",
+        "download_url":"./images/elena.jpg",
         "name": "Dr. Elena Hristea",
         "skills": [
             {
@@ -19,8 +19,8 @@
         ]
     },
     {
-        "url":"./images/mario.png",
-        "download_url":"./images/mario.png",
+        "url":"./images/mario.jpg",
+        "download_url":"./images/mario.jpg",
         "name": "T.D. Mario Miliare",
         "skills": [
             {
@@ -52,8 +52,8 @@
         ]
     },
     {
-        "url":"./images/sonia.png",
-        "download_url":"./images/sonia.png",
+        "url":"./images/sonia.jpg",
+        "download_url":"./images/sonia.jpg",
         "name": "Dr. Sonia Khazaal",
         "skills": [
             {
@@ -62,8 +62,24 @@
         ]
     },
     {
-        "url":"./images/mirela.png",
-        "download_url":"./images/mirela.png",
+        "url":"./images/khazaal2.jpg",
+        "download_url":"./images/khazaal2.jpg",
+        "name": "Dr. Khaled Khazaal",
+        "skills": [
+            {
+                "skill": "Stomatologie Generala"
+            },
+            {
+                "skill": "Protetica"
+            },
+            {
+                "skill": "Specialist Endodontie"
+            }
+        ]
+    },
+    {
+        "url":"./images/mirela.jpg",
+        "download_url":"./images/mirela.jpg",
         "name": "Dr. Mirela Dragu",
         "skills": [
             {
@@ -78,8 +94,8 @@
         ]
     },
     {
-        "url":"./images/khaled.png",
-        "download_url":"./images/khaled.png",
+        "url":"./images/khaled.jpg",
+        "download_url":"./images/khaled.jpg",
         "name": "Dr. Khaled Ghieb",
         "skills": [
             {
@@ -95,8 +111,8 @@
     }
     ,
     {
-        "url":"./images/george.png",
-        "download_url":"./images/george.png",
+        "url":"./images/george.jpg",
+        "download_url":"./images/george.jpg",
         "name": "Dr. George Hristea",
         "skills": [
             {
@@ -111,8 +127,8 @@
         ]
     },
     {
-        "url":"./images/iris.png",
-        "download_url":"./images/iris.png",
+        "url":"./images/iris.jpg",
+        "download_url":"./images/iris.jpg",
         "name": "Dr. Iris Popa",
         "skills": [
             {
@@ -125,8 +141,8 @@
     }
     ,
     {
-        "url":"./images/elencu.png",
-        "download_url":"./images/elencu.png",
+        "url":"./images/elencu.jpg",
+        "download_url":"./images/elencu.jpg",
         "name": "Dr. Elena Elencu",
         "skills": [
             {
@@ -142,8 +158,8 @@
     }
     ,
     {
-        "url":"./images/diana.png",
-        "download_url":"./images/diana.png",
+        "url":"./images/diana.jpg",
+        "download_url":"./images/diana.jpg",
         "name": "Diana Beclea",
         "skills": [
             {
@@ -153,8 +169,8 @@
     }
     ,
     {
-        "url":"./images/raluca.png",
-        "download_url":"./images/raluca.png",
+        "url":"./images/raluca.jpg",
+        "download_url":"./images/raluca.jpg",
         "name": "Raluca Grosu",
         "skills": [
             {
@@ -167,8 +183,8 @@
     }
     ,
     {
-        "url":"./images/gabriela.png",
-        "download_url":"./images/gabriela.png",
+        "url":"./images/gabriela.jpg",
+        "download_url":"./images/gabriela.jpg",
         "name": "Gabriela Stroe",
         "skills": [
             {
