@@ -117,15 +117,14 @@
         left: 0;
         max-width: 100%;
         z-index: 1;
-        background-color: rgba(0, 0, 0, 1);
+        background-color: rgb(255, 255, 255);
         margin: 0;
-
         .media-img {
           position: relative;
           transform: scale(3);
           top: 50%;
           left: 50%;
-          max-width: 500px;
+          max-width: 550px;
           width: 100%;
           transform: translate(-50%, -50%);
         }
