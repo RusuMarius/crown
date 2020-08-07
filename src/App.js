@@ -10,7 +10,8 @@ import Homepage from './pages/Homepage';
 import Interventii from './pages/Interventii';
 import GhidMedical from './pages/GhidMedical';
 import ScrollToTop from './components/ScrollToTop';
-import ModalMain from './components/Modal'
+import ModalMain from './components/Modal';
+import Error from './components/Error';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -30,6 +31,7 @@ function App() {
               <Route path="/interventii" component={Interventii}/>
               <Route path="/ghid-medical" component={GhidMedical}/>
               <Route path="/contact" component={Contact}/>
+              <Route component={Error}/>
             </Switch>
           </div>
           <ScrollToTop />
