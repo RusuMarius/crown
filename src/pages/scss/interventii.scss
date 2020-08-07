@@ -1,0 +1,62 @@
+.interventii-title {
+  font-style: italic;
+  margin: 15px;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Cinzel', serif;
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: -0.5px;
+  color: #33a8bd;
+}
+.main-row, .main-row2 {
+  display: flex;
+  align-items: center;
+  .col-text {
+    padding: 20px;
+    p {
+      &:last-of-type {
+        color: #33a8bd;
+        font-weight: bold;
+      }
+    }
+  }
+  .col-div {
+    width: 50%;
+  }
+  .col-img {
+    position: relative;
+    video {
+      cursor: pointer;
+      width: 100%;
+      padding: 32px;
+    }
+    .img-half {
+      width: 100%;
+      display: block;
+    }
+    .rama-bg {
+      width: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  @media(max-width: 768px) {
+    flex-direction: column!important;
+    .col-div {
+      width: 100%;
+    }
+    .col-img  {
+      margin-bottom: 20px;
+      video {
+        padding: 10px;
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+.main-row2 {
+  flex-direction: row-reverse;
+}

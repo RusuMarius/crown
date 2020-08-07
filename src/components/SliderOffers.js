@@ -70,7 +70,9 @@ class SliderOffers extends Component {
     return (
       <div className='main-container'>
         {this.state.loading ? (
-          <div className="text-center">Loading...</div>
+          <div className="text-center loading">
+            <img className='loading-img' src="./images/loading-icon.gif" alt=""/>
+          </div>
         ) : (
           <React.Fragment>
             <Carousel

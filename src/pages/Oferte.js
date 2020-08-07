@@ -20,11 +20,9 @@ class Oferte extends React.Component {
                 <div className="carousel-box">
                     <div className="main-container">
                     <SliderOffers />
-
                     </div>
                 </div>
                 <div className='main-container'>
-
                 </div>
             </div>
         );
