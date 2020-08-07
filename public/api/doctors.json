@@ -19,16 +19,6 @@
         ]
     },
     {
-        "url":"./images/mario.jpg",
-        "download_url":"./images/mario.jpg",
-        "name": "T.D. Mario Miliare",
-        "skills": [
-            {
-                "skill": "estetica dentara"
-            }
-        ]
-    },
-    {
         "url":"./images/doctor-thumbnail.png",
         "download_url":"./images/doctor-thumbnail.png",
         "name": "Dr. Olivian Caraivan",
@@ -189,6 +179,16 @@
         "skills": [
             {
                 "skill": "Front Desk"
+            }
+        ]
+    },
+    {
+        "url":"./images/mario.jpg",
+        "download_url":"./images/mario.jpg",
+        "name": "T.D. Mario Miliare",
+        "skills": [
+            {
+                "skill": "estetica dentara"
             }
         ]
     }

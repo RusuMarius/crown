@@ -1,6 +1,7 @@
 import React from 'react';
 import Doctor from '../components/Doctor';
 import './scss/team.scss';
+import {Helmet} from 'react-helmet';
 
 class Team extends React.Component {
   constructor(props) {
@@ -51,6 +52,11 @@ class Team extends React.Component {
     );
     return (
       <React.Fragment>
+
+      <Helmet>
+        <title>Echipa | Crown Medical Center</title>
+        <meta name="description" content="Estetica dentara, Implantologie, Parodontologie" />
+      </Helmet>
 
         {this.state.loading ? (
           <div className="text-center loading">

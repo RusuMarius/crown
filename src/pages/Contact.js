@@ -1,51 +1,57 @@
 import React from 'react';
 import './scss/contact.scss';
 import Form from './../components/Form';
-import { GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow } from 'react-google-maps'
+import { GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow } from 'react-google-maps';
+import {Helmet} from 'react-helmet';
 
 
 function Map() {
-    return (
-        <GoogleMap
-        defaultZoom={16}
-        defaultCenter={{lat: 44.415707636110376, lng: 26.06012537973909}} >
-            <Marker position={{lat: 44.415707636110376, lng: 26.06012537973909}} >
-                <InfoWindow><div className='info-text'>Crown Medical Center</div></InfoWindow>
-            </Marker>
+	return (
+		<GoogleMap
+		defaultZoom={16}
+		defaultCenter={{lat: 44.415707636110376, lng: 26.06012537973909}} >
+			<Marker position={{lat: 44.415707636110376, lng: 26.06012537973909}} >
+				<InfoWindow><div className='info-text'>Crown Medical Center</div></InfoWindow>
+			</Marker>
 
 
-        </GoogleMap>
-    )
+		</GoogleMap>
+	)
 }
 
 const WrappedMap = withScriptjs(withGoogleMap(Map))
 
 class Contact extends React.Component {
-    render() {
-        return (
-            <div>
-                <div className='main-container contact'>
-                    <img className='contact-bg' src="./images/coffee2.png" alt="coffee"/>
-                    <div className="contact-way">
-                        <Form />
-                        <div className='map-box'>
-                            <WrappedMap
-                                googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCYX7sLPqx_AFGlZ2wcOCXPmmmlQjXSEII`}
-                                loadingElement={<div style={{ height: `100%` }} />}
-                                containerElement={<div style={{ height: `400px` }} />}
-                                mapElement={<div style={{ height: `100%` }} />}
-                            />
-                            <div className="contact-detail">
-                                <p><i class="fa fa-phone" aria-hidden="true"></i> <span>Telefon: <a href="tel:021.423.35.95">021.423.35.95</a></span></p>
-                                <p><i class="fa fa-envelope" aria-hidden="true"></i> <span>Email: <a href="mailto:custom_art_concept@yahoo.com">custom_art_concept@yahoo.com</a></span></p>
-                                <p><i class="fa fa-address-book" aria-hidden="true"></i> Adresa: str. Petre Ispirescu, nr. 89-91</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        );
-    }
+	render() {
+		return (
+			<div>
+				<Helmet>
+					<title>Contact | Crown Medical Center</title>
+					<meta name="description" content="Estetica dentara, Implantologie, Parodontologie" />
+				</Helmet>
+
+				<div className='main-container contact'>
+					<img className='contact-bg' src="./images/coffee2.png" alt="coffee"/>
+					<div className="contact-way">
+						<Form />
+						<div className='map-box'>
+							<WrappedMap
+								googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCYX7sLPqx_AFGlZ2wcOCXPmmmlQjXSEII`}
+								loadingElement={<div style={{ height: `100%` }} />}
+								containerElement={<div style={{ height: `400px` }} />}
+								mapElement={<div style={{ height: `100%` }} />}
+							/>
+							<div className="contact-detail">
+								<p><i class="fa fa-phone" aria-hidden="true"></i> <span>Telefon: <a href="tel:021.423.35.95">021.423.35.95</a></span></p>
+								<p><i class="fa fa-envelope" aria-hidden="true"></i> <span>Email: <a href="mailto:custom_art_concept@yahoo.com">custom_art_concept@yahoo.com</a></span></p>
+								<p><i class="fa fa-address-book" aria-hidden="true"></i> Adresa: str. Petre Ispirescu, nr. 89-91</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		);
+	}
 }
 
 export default Contact;

@@ -1,18 +1,18 @@
 [
     {
-        "url":"./images/clinic1.png",
-        "download_url":"./images/clinic1.png"
+        "url":"./images/clinic1.webp",
+        "download_url":"./images/clinic1.webp"
     },
     {
-        "url":"./images/clinic2.png",
-        "download_url":"./images/clinic2.png"
+        "url":"./images/clinic2.webp",
+        "download_url":"./images/clinic2.webp"
     },
     {
-        "url":"./images/clinic3.png",
-        "download_url":"./images/clinic3.png"
+        "url":"./images/clinic3.webp",
+        "download_url":"./images/clinic3.webp"
     },
     {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png"
+        "url":"./images/clinic4.webp",
+        "download_url":"./images/clinic4.webp"
     }
 ]

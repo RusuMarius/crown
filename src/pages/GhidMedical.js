@@ -1,11 +1,17 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import {Helmet} from 'react-helmet';
 
 class GhidMedical extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Ghid Medical | Crown Medical Center</title>
+          <meta name="description" content="Estetica dentara, Implantologie, Parodontologie" />
+        </Helmet>
+
         <div className='main-container'>
           <Tabs className='tabs-all'>
             <TabList className='tabs-field'>

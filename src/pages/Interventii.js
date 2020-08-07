@@ -1,11 +1,17 @@
 import React from 'react';
 import './scss/interventii.scss';
 import Video from './images/file.mp4';
+import {Helmet} from 'react-helmet';
 
 class Interventii extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>Interventii | Crown Medical Center</title>
+          <meta name="description" content="Estetica dentara, Implantologie, Parodontologie" />
+        </Helmet>
+
         <div className='main-container interventii-container'>
           <h2 className='interventii-title'>Cel mai avansat laser dentar dioda din lume</h2>
           <div className="main-row">

@@ -34,10 +34,36 @@
         span {
           max-width: 85%;
         }
+        &:hover {
+          .fa {
+            animation: effect 0.2s infinite;
+          }
+          @keyframes effect {
+            0% {
+                transform: translateX(0px) rotate(0deg);
+            }
+            20% {
+                transform: translateX(-2px) rotate(-10deg);
+            }
+            40% {
+                transform: translateX(-1px) rotate(-8deg);
+            }
+            60% {
+                transform: translateX(2px) rotate(10deg);
+            }
+            80% {
+                transform: translateX(2px) rotate(8deg);
+            }
+            100% {
+                transform: translateX(0px) rotate(0deg);
+            }
+        }
+        }
       }
       .fa {
         font-size: 28px;
         width: 40px;
+
       }
       a {
         color: #33a8bd;
@@ -53,6 +79,8 @@
           width: 30px;
         }
       }
+
+
     }
   }
   .form-container {
