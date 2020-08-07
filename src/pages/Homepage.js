@@ -1,6 +1,6 @@
 import React from 'react';
-import Hero from '../components/images/hero-img.webp';
-import Rama from '../components/images/rama.webp';
+import Hero from '../components/images/hero-img.png';
+import Rama from '../components/images/rama.png';
 import Crown from '../components/images/crown-icon.png';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Slider from '../components/Slider';
@@ -23,7 +23,6 @@ class Homepage extends React.Component {
 						<img src={Hero} alt='hero'/>
 						<div className='hero-text'>
 							<p>Sanatatea ta incepe cu noi</p>
-
 						</div>
 					</div>
 					<div className='main-container'>
