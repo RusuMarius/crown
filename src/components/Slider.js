@@ -76,8 +76,8 @@ class Slider extends Component {
               additionalTransfrom={0}
               showDots={false}
               arrows={true}
-              autoPlaySpeed={3000}
-              autoPlay={true}
+              autoPlaySpeed={3500}
+              autoPlay={false}
               centerMode={false}
               className="slider"
               containerClass="container-with-dots"

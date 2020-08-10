@@ -70,7 +70,7 @@ class Team extends React.Component {
             <input className='search-input' type="text"
             value={this.state.search}
             name='search'
-            placeholder='Search..'
+            placeholder='Cauta..'
             id='search-input'
             onChange={this.updateSearch.bind(this)}
             />

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import LightBox, { Modal, ModalGateway } from "react-images";
 import {Link} from 'react-router-dom';
 
 const responsive = {
@@ -79,8 +78,8 @@ class SliderOffers extends Component {
               additionalTransfrom={0}
               showDots={false}
               arrows={true}
-              autoPlaySpeed={3000}
-              autoPlay={false}
+              autoPlaySpeed={3500}
+              autoPlay={true}
               centerMode={false}
               className="slider"
               containerClass="container-with-dots"
@@ -118,24 +117,7 @@ class SliderOffers extends Component {
                 );
               })}
             </Carousel>
-            <ModalGateway>
-              {this.state.lightboxIsOpen ? (
-                <Modal onClose={this.toggleLightbox}>
-                  <LightBox
-                    components={{
-                      FooterCaption: props => {
-                        return (
-                          <div>shot by - {props.currentView.author}</div>
-                        );
-                      }
-                    }}
-                    currentIndex={this.state.selectedImage.index}
-                    frameProps={{ autoSize: "height" }}
-                    views={this.state.apiImgs}
-                  />
-                </Modal>
-              ) : null}
-            </ModalGateway>
+
         </React.Fragment>
         )}
       </div>

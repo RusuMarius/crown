@@ -1,22 +1,38 @@
 [
     {
-        "url":"./images/clinic1.png",
-        "download_url":"./images/clinic1.png"
+        "url":"./images/clinic1.jpg",
+        "download_url":"./images/clinic1.jpg"
     },
     {
-        "url":"./images/clinic2.png",
-        "download_url":"./images/clinic2.png"
+        "url":"./images/clinic2.jpg",
+        "download_url":"./images/clinic2.jpg"
     },
     {
-        "url":"./images/clinic3.png",
-        "download_url":"./images/clinic3.png"
+        "url":"./images/clinic3.jpg",
+        "download_url":"./images/clinic3.jpg"
     },
     {
-        "url":"./images/clinic4.png",
-        "download_url":"./images/clinic4.png"
+        "url":"./images/clinic4.jpg",
+        "download_url":"./images/clinic4.jpg"
     },
     {
-        "url":"./images/clinic5.png",
-        "download_url":"./images/clinic4.png"
+        "url":"./images/clinic5.jpg",
+        "download_url":"./images/clinic5.jpg"
+    },
+    {
+        "url":"./images/clinic6.jpg",
+        "download_url":"./images/clinic6.jpg"
+    },
+    {
+        "url":"./images/clinic7.jpg",
+        "download_url":"./images/clinic7.jpg"
+    },
+    {
+        "url":"./images/clinic8.jpg",
+        "download_url":"./images/clinic8.jpg"
+    },
+    {
+        "url":"./images/clinic9.jpg",
+        "download_url":"./images/clinic9.jpg"
     }
 ]
