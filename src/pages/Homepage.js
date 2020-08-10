@@ -5,6 +5,7 @@ import Crown from '../components/images/crown-icon.png';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Slider from '../components/Slider';
 import {Helmet} from 'react-helmet';
+import Video2 from './images/crown-video.mp4';
 
 class Homepage extends React.Component {
 
@@ -61,7 +62,7 @@ class Homepage extends React.Component {
 									<img src={Rama} alt='rama'/>
 								</div>
 						</div>
-
+						<div className="video-box"><video className='video-home' controls poster='./images/aparat2.png' src={Video2} type="video/mp4"></video></div>
 					</div>
 					<div className="filosofy">
 						<div className="main-container">
