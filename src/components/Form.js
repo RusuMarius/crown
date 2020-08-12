@@ -108,14 +108,14 @@ class Form extends React.Component {
           <div className='singleItem text-area'>
             <label htmlFor="message">Mesaj</label>
             <textarea name="message" id="" cols="30" rows="5"
-            placeholder='Mesajul d-voastra...'
+            placeholder='Mesajul d-voastră...'
             value={this.state.message}
             onChange={this.handleMsg}
             ></textarea>
           </div>
-          <div className={this.state.sent ?'msg msgAppear': 'msg'}>Message has been sent</div>
+          <div className={this.state.sent ?'msg msgAppear': 'msg'}>Mesajul a fost trimis!</div>
           <div className="btn">
-            <button type='submit'>Submit</button>
+            <button type='submit'>Trimite</button>
           </div>
         </form>
       </div>

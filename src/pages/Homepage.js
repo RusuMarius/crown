@@ -23,7 +23,7 @@ class Homepage extends React.Component {
 					<div className='hero'>
 						<img src={Hero} alt='hero'/>
 						<div className='hero-text'>
-							<p>Sanatatea ta incepe cu noi</p>
+							<p>Sănătatea ta începe&nbsp;cu&nbsp;noi</p>
 						</div>
 					</div>
 					<div className='main-container'>
@@ -32,48 +32,58 @@ class Homepage extends React.Component {
 								<div className="crown-title">
 									<img src={Crown} alt='crown'/>
 								</div>
-								<p>Filozofia noastra este simpla si neschimbata de peste 20 de ani de activitate:</p>
+								<p>Filozofia noastră este simplă și neschimbată de peste 20 de ani de activitate:</p>
 								<ul>
 									<li>
-										<i className='fas'>&#xf101;</i>suntem devotatiorientati catre nevoile
-										pacientilor nostri astfel incat acestia sa se bucure de toate beneficiile pe
+										<i className='fas'>&#xf101;</i>suntem devotatiorientati către nevoile
+										pacienților noștri astfel încât aceștia să se bucure de toate beneficiile pe
 										care le putem oferi
 									</li>
 									<li>
-										<i className='fas'>&#xf101;</i>suntem dedicati in totalitate si facem totul
-										ghidati de pasiunea care ne reprezinta</li>
+										<i className='fas'>&#xf101;</i>suntem dedicați în totalitate și facem totul
+										ghidați de pasiunea care ne reprezintă</li>
 									<li>
-										<i className='fas'>&#xf101;</i>folosind cele mai bune materiale si aparatura
-										ultra moderna facem posibile rezultate excelente</li>
+										<i className='fas'>&#xf101;</i>folosind cele mai bune materiale și aparatură
+										ultra modernă facem posibile rezultate excelente</li>
 									<li>
-										<i className='fas'>&#xf101;</i>echipa noastra este alcatuita numai din
-										profesionisti cu o vasta experienta medicala</li>
+										<i className='fas'>&#xf101;</i>echipa noastră este alcătuită numai din
+										profesioniști cu o vastă experiență medicală</li>
 									<li>
-										<i className='fas'>&#xf101;</i>un ambient pozitiv si primitor</li>
+										<i className='fas'>&#xf101;</i>un ambient pozitiv și primitor</li>
 									<li>
-										<i className='fas'>&#xf101;</i>punem la dispozitie pacientilor nostri cele mai
-										bune si adecvate solutii astfel incat alegerile lor sa fie cele mai multumitoare</li>
+										<i className='fas'>&#xf101;</i>punem la dispoziția pacienților noștri cele mai
+										bune și adecvate soluții astfel încât alegerile lor să fie cele mai mulțumitoare</li>
 									<li>
-										<i className='fas'>&#xf101;</i>realizam planuri de tratament personalizate
-										facand posibila o abordare a tuturor pacientilor din toate segmentele de piata</li>
-									</ul>
-								</div>
-								<div className='motto-item rama-box'>
-									<img src={Rama} alt='rama'/>
-								</div>
+										<i className='fas'>&#xf101;</i>realizăm planuri de tratament personalizate
+										făcând posibilă o abordare a tuturor pacienților din toate segmentele de piață</li>
+								</ul>
+							</div>
+							<div className='motto-item rama-box'>
+								<img src={Rama} alt='rama'/>
+							</div>
 						</div>
-						<div className="video-box"><video className='video-home' controls poster='./images/aparat2.png' src={Video2} type="video/mp4"></video></div>
+
 					</div>
 					<div className="filosofy">
 						<div className="main-container">
 							<h2>"Omnium Artium Medicina Nobilissima Est"<br/>
 									~ Aristotel ~</h2>
-							<p>Fiecare om are dreptul si merita un tratament medical de cea mai buna
-									calitate iar noi ne asumam rolul de partener de incredere in aceasta minunata
-									excursie a zambetului.</p>
+							<p>Fiecare om are dreptul și merită un tratament medical de cea mai bună
+							calitate iar noi ne asumăm rolul de partener de încredere în această minunată
+							excursie a zâmbetului.</p>
 						</div>
 					</div>
 					<Slider/>
+					<div className="filosofy">
+						<div className="main-container filosofy-video">
+							<div className="video-box"><video className='video-home' controls poster='./images/aparat2.png' src={Video2} type="video/mp4"></video></div>
+							<div className="text">
+								<h2>Descoperă tehnologia progresivă</h2>
+								<p>Specialiștii noștri au integrat cu succes tratamentul laser în toate tipurile de tratament stomatologic, de la
+								parodontologie, implantologie, estetică dentară și tehnici ultra moderne de&nbsp;fațetare.</p>
+							</div>
+						</div>
+					</div>
 					<div className="program">
 						<div className="main-container">
 							<h2>PROGRAM</h2>
@@ -84,14 +94,14 @@ class Homepage extends React.Component {
 								</li>
 								<li>
 									<i className='fas'>&#xf101;</i>
-									<p>Sambata : 10 - 16</p>
+									<p>Sâmbăta : 10 - 16</p>
 								</li>
 								<li>
 									<i className='fas'>&#xf101;</i>
 									<p>Duminica: 10 - 14</p>
 								</li>
 							</ul>
-							<h2>ADRESA</h2>
+							<h2>ADRESĂ</h2>
 							<ul>
 								<li>
 									<i className='fas'>&#xf101;</i>

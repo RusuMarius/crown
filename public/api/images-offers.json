@@ -3,23 +3,23 @@
         "id": "offer1",
         "url":"./images/ofer2.png",
         "download_url":"./images/ofer2.png",
-        "title":"Vino sa ne cunosti",
+        "title":"Vino să ne cunoști",
         "offer":"Discount",
         "procent":"10%",
         "person":"pentru orice pacient nou sosit in clinica noastra",
-        "button":"Programeaza-te aici"
+        "button":"Programează-te aici"
     },
     {
         "id":"offer2",
         "url":"./images/ofer1.png",
         "download_url":"./images/ofer1.png",
         "title":"Cardul de fidelitate Crown Medical",
-        "button":"Afla mai multe despre obtinerea lui"
+        "button":"Află mai multe despre obținerea lui"
     },
     {
         "id":"offer3",
         "url":"./images/ofer3.png",
         "download_url":"./images/ofer3.png",
-        "title":"In curand"
+        "title":"În curând"
     }
 ]

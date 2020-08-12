@@ -13,35 +13,35 @@ class Interventii extends React.Component {
         </Helmet>
 
         <div className='main-container interventii-container'>
-          <h2 className='interventii-title'>Cel mai avansat laser dentar dioda din lume</h2>
+          <h2 className='interventii-title'>Cel mai avansat laser dentar diodă din lume</h2>
           <div className="main-row">
             <div className="col-div col-img">
               <img className='img-half' src='./images/aparat.png' alt=""/>
             </div>
             <div className="col-div col-text">
-              <p>Crown Medical Center pune la dispozitia pacientilor un tratament inovator,
-              ultramodern, de inalta calitate si in acelasi timp foarte prietenos.
-              Clinica noastra a incorporat cu succes tratamentul cu ajutorul laserului
-              in mai multe subdiviziuni ale stomatologiei cum ar fi endodontia, parodontologia,
-              implantologia si estetica dentara.</p>
-              <p>Consulta specialistii nostri in tratamente laser</p>
-              <a className='global-cta' href="/contact">APASA AICI</a>
+              <p>Crown Medical Center pune la dispoziția pacienților un tratament inovator,
+              ultramodern, de înaltă calitate și în același timp foarte prietenos.
+              Clinica noastră a incorporat cu succes tratamentul cu ajutorul laserului
+              în mai multe subdiviziuni ale stomatologiei cum ar fi endodontia, parodontologia,
+              implantologia și estetica dentară.</p>
+              <p>Consultă specialiștii noștri în tratamente laser</p>
+              <a className='global-cta' href="/contact">APASĂ AICI</a>
             </div>
           </div><br /><br />
-          <h2 className='interventii-title'>Smart, Accurate & Reliable</h2>
+          <h2 className='interventii-title'>Inteligent, Precis și De Încredere</h2>
           <div className="main-row2">
             <div className="col-div col-img">
             <video controls poster='./images/aparat2.png' src={Video} type="video/mp4"></video>
             </div>
             <div className="col-div col-text">
-              <p>Avantajele tratamentului cu laser in raport cu tratamentele clasice sunt urmatoarele : </p>
+              <p>Avantajele tratamentului cu laser în raport cu tratamentele clasice sunt următoarele : </p>
               <ul>
-                <li><i className='fas'>&#xf101;</i>sangerare minima spre deloc</li>
-                <li><i className='fas'>&#xf101;</i>fara durere nefiind necesara anestezia</li>
-                <li><i className='fas'>&#xf101;</i>operare simpla, fara zgomot, fara vibratii</li>
-                <li><i className='fas'>&#xf101;</i>operare sigura in jurul implantelor </li>
-                <li><i className='fas'>&#xf101;</i>probabilitate foarte scazuta de infectii avand in vedere efectul de sterilizare al fasciculului Laser</li>
-                <li><i className='fas'>&#xf101;</i>vindecare mult mai rapida postoperator</li>
+                <li><i className='fas'>&#xf101;</i>sângerare minimă spre deloc</li>
+                <li><i className='fas'>&#xf101;</i>fără durere nefiind necesară anestezia</li>
+                <li><i className='fas'>&#xf101;</i>operare simplă, fară zgomot, fară vibrații</li>
+                <li><i className='fas'>&#xf101;</i>operare sigură în jurul implantelor</li>
+                <li><i className='fas'>&#xf101;</i>probabilitate foarte scăzută de infecții având în vedere efectul de sterilizare al fasciculului Laser</li>
+                <li><i className='fas'>&#xf101;</i>vindecare mult mai rapidă postoperator</li>
                 <li><i className='fas'>&#xf101;</i>cu efect antidurere ceea ce duce la anularea disconfortului postoperator</li>
               </ul>
             </div>
@@ -53,38 +53,39 @@ class Interventii extends React.Component {
             </div>
             <div className="col-div col-text">
               <p>Tratamentul cu implanturi dentare a reprezentat un progres extraordinar
-              al stomatologiei moderne și a adus o noua abordare în domeniul proteticii,
-              rezolvând cazuri clinice din ce în ce mai diverse și dificile.<br/>
-              In cadrul clinicii noastre interventiile chirurgicale sunt executate de medici
-              specialisti, cu experienta de peste 20 de ani pregatiti sa faca fata celor mai
-              dificile cazuri si se folosesc materiale biocompatibile de ultima ora care se
+              al stomatologiei moderne și a adus o nouă abordare în domeniul proteticii,
+              rezolvând cazuri clinice din ce în ce mai diverse și dificile.
+
+              În cadrul clinicii noastre intervențiile chirurgicale sunt executate de medici
+              specialiști, cu experiență de peste 20 de ani pregătiți să facă față celor mai
+              dificile cazuri și se folosesc materiale biocompatibile de ultimă oră care se
               integrează excelent în organismul pacientului.</p>
-              <p>Specialistii nostri in implantologie iti stau la dizpozitie </p>
-              <a className='global-cta' href="/contact">APASA AICI</a>
+              <p>Specialiștii noștri în implantologie iți stau la dizpozitie </p>
+              <a className='global-cta' href="/contact">APASĂ AICI</a>
             </div>
           </div><br /><br />
-          <h2 className='interventii-title'>Fatete Dentare</h2>
+          <h2 className='interventii-title'>Fațete Dentare</h2>
           <div className="main-row2">
             <div className="col-div col-img">
               <img className='img-half' src='./images/zambet.png' alt=""/>
               <ul>
-                <li><i className='fas'>&#xf101;</i>Vrei sa ai un zambet de star de cinema?</li>
-                <li><i className='fas'>&#xf101;</i>Vrei sa elimini o data pentru totdeauna vizitele la stomatolog pentru albiri?</li>
-                <li><i className='fas'>&#xf101;</i>Vrei un zambet perfect fara sa afectezi structura dintilor tai ?</li>
+                <li><i className='fas'>&#xf101;</i>Vrei să ai un zâmbet de star de cinema?</li>
+                <li><i className='fas'>&#xf101;</i>Vrei să elimini o dată pentru totdeauna vizitele la stomatolog pentru albiri?</li>
+                <li><i className='fas'>&#xf101;</i>Vrei un zâmbet perfect fară să afectezi structura dinților tăi ?</li>
               </ul>
             </div>
             <div className="col-div col-text">
-              <p>Fatetele reprezinta o metoda rapida, confortabila, minim invaziva cu un rezultat uimitor .
-              Ele mascheaza micile imperfectiuni ale dintilor cum ar fi procese carioase plombate, coloratii,
-              muchii fisurate si de asemenea abraziunea fiziologica a dintilor.<br />
-              Fiind foarte subtiri nu este necesara decat o slefuire superficiala a dintelui
-              in acest fel conservandu-se foarte mult din substanta acestuia.<br />
-              Exista, de asemenea, situatii cand pacientii doresc ca dintii lor sa ramana
-              integri iar atunci se pot folosi fatetele NO PREP ( no preparation ) <br /><br />Clinica noastra dispune,
-              de asemenea, de un laborator performant care foloseste inclusiv tehnici de scanare 3D
-              pentru ca d-voastra sa beneficiati de cele mai bune rezultate. </p>
-              <p>Programeaza-te cu incredere la unul dintre specialistii nostri </p>
-              <a className='global-cta' href="/contact">APASA AICI</a>
+              <p>Fațetele reprezintă o metodă rapidă, confortabilă, minim invazivă cu un rezultat uimitor .
+              Ele maschează micile imperfecțiuni ale dinților cum ar fi procese carioase plombate, colorații,
+              muchii fisurate și de asemenea abraziunea fiziologică a dinților.<br />
+              Fiind foarte subțiri nu este necesară decât o șlefuire superficială a dintelui
+              în acest fel conservandu-se foarte mult din substanța acestuia.<br />
+              Există, de asemenea, situații când pacienții doresc ca dinții lor să rămână
+              integri iar atunci se pot folosi fațetele NO PREP ( no preparation ) <br /><br />Clinica noastră dispune,
+              de asemenea, de un laborator performant care folosește inclusiv tehnici de scanare 3D
+              pentru ca d-voastră să beneficiați de cele mai bune rezultate. </p>
+              <p>Programează-te cu încredere la unul dintre specialiștii noștri</p>
+              <a className='global-cta' href="/contact">APASĂ AICI</a>
             </div>
           </div>
         </div>

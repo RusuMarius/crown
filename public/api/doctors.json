@@ -8,10 +8,10 @@
                 "skill": "Specialist Implantologie"
             },
             {
-                "skill": "Protetica"
+                "skill": "Protetică"
             },
             {
-                "skill": "Estetica Dentara"
+                "skill": "Estetică Dentară"
             },
             {
                 "skill": "Terapii Laser"
@@ -57,13 +57,13 @@
         "name": "Dr. Khaled Khazaal",
         "skills": [
             {
-                "skill": "Stomatologie Generala"
+                "skill": "Stomatologie Generală"
             },
             {
-                "skill": "Protetica"
+                "skill": "Protetică"
             },
             {
-                "skill": "Specialist Endodontie"
+                "skill": "Specialist Endodonție"
             }
         ]
     },
@@ -73,13 +73,13 @@
         "name": "Dr. Mirela Dragu",
         "skills": [
             {
-                "skill": "Stomatologie Generala"
+                "skill": "Stomatologie Generală"
             },
             {
-                "skill": "Protetica"
+                "skill": "Protetică"
             },
             {
-                "skill": "Endodontie"
+                "skill": "Endodonție"
             }
         ]
     },
@@ -95,7 +95,7 @@
                 "skill": "Chirurgie"
             },
             {
-                "skill": "Protetica / Terapii Laser"
+                "skill": "Protetică / Terapii Laser"
             }
         ]
     }
@@ -106,13 +106,13 @@
         "name": "Dr. George Hristea",
         "skills": [
             {
-                "skill": "Stomatologie Generala"
+                "skill": "Stomatologie Generală"
             },
             {
-                "skill": "Protetica"
+                "skill": "Protetică"
             },
             {
-                "skill": "Endodontie"
+                "skill": "Endodonție"
             }
         ]
     },
@@ -122,10 +122,10 @@
         "name": "Dr. Iris Popa",
         "skills": [
             {
-                "skill": "Stomatologie Generala"
+                "skill": "Stomatologie Generală"
             },
             {
-                "skill": "Endodontie"
+                "skill": "Endodonție"
             }
         ]
     }
@@ -136,13 +136,13 @@
         "name": "Dr. Elena Elencu",
         "skills": [
             {
-                "skill": "Stomatologie Generala"
+                "skill": "Stomatologie Generală"
             },
             {
-                "skill": "Protetica"
+                "skill": "Protetică"
             },
             {
-                "skill": "Endodontie"
+                "skill": "Endodonție"
             }
         ]
     }
@@ -153,7 +153,7 @@
         "name": "Diana Beclea",
         "skills": [
             {
-                "skill": "Asistenta Generalista"
+                "skill": "Asistentă Generalistă"
             }
         ]
     }
@@ -164,7 +164,7 @@
         "name": "Raluca Grosu",
         "skills": [
             {
-                "skill": "Asistenta Generalista"
+                "skill": "Asistentă Generalistă"
             },
             {
                 "skill": "Front Desk"
@@ -188,7 +188,7 @@
         "name": "T.D. Mario Miliare",
         "skills": [
             {
-                "skill": "estetica dentara"
+                "skill": "estetică dentară"
             }
         ]
     }

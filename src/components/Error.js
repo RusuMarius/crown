@@ -7,11 +7,11 @@ class Error extends React.Component {
 
 		return (
 			<div className="main-container error-container">
-				<p>Ne pare rau, dar aceasta pagina nu&nbsp;exista!</p>
+				<p>Ne pare rău, dar această pagină nu&nbsp;există!</p>
 				<h2>404</h2>
-				<p>Poti accesa una dintre optiunile de mai&nbsp;jos:</p>
+				<p>Poți accesa una dintre opțiunile de mai&nbsp;jos:</p>
 				<div className="error-options">
-					<a class="global-cta" href="/">Acasa</a>
+					<a class="global-cta" href="/">Acasă</a>
 					<a class="global-cta" href="/contact">Contact</a>
 				</div>
 			</div>

@@ -56,9 +56,9 @@ class Navbar extends React.Component {
                 </div>
 
                 <div className={this.state.isOpen ? "showNav menu-nav" : "menu-nav"}>
-                    <NavLink to="/echipa" onClick={this.closeNav}>Echipa</NavLink>
+                    <NavLink to="/echipa" onClick={this.closeNav}>Echipă</NavLink>
                     <NavLink to="/oferte" onClick={this.closeNav}>Oferte</NavLink>
-                    <NavLink to="/interventii" onClick={this.closeNav}>Interventii</NavLink>
+                    <NavLink to="/interventii" onClick={this.closeNav}>Intervenții</NavLink>
                     <NavLink to="/ghid-medical" onClick={this.closeNav}>Ghid Medical</NavLink>
                     <NavLink to="/contact" onClick={this.closeNav}>Contact</NavLink>
                 </div>

@@ -27,10 +27,10 @@ const Doctor = (props) => {
           />
           <div className='back-warning mobile-warning'><div class="arrow bounce">
           <p class="fa fa-arrow-up fa-2x"></p>
-        </div>Apasa pentru a reveni la lista</div>
+        </div>Apasă pentru a reveni la listă</div>
           <div className='back-warning desktop-warning'><div class="arrow bounce">
           <p class="fa fa-arrow-up fa-2x"></p>
-        </div>Da click pentru a reveni la lista</div>
+        </div>Click pentru a reveni la listă</div>
         </div>
       </div>
     </React.Fragment>

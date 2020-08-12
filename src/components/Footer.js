@@ -11,14 +11,17 @@ class Footer extends React.Component {
                     <div className="footer-box">
                         <div className="footer-item contact-links">
                             <h2>Contact</h2>
-                            <a href='mailto:rusu.marius1207@gmail.com'>Email Adress: rusu.marius1207@gmail.com</a>
-                            <p>phone: <a href='tel:0771583863'>0771583863</a></p>
+                            <a href='mailto:custom_art_concept@yahoo.com'>Adresă de Email: custom_art_concept@yahoo.com</a>
+                            <p>Telefon: <a href='tel:021.423.35.95'>021.423.35.95</a></p>
+                            <p>Adresă: str. Petre Ispirescu, nr. 89-91</p>
                         </div>
                         <div className="footer-item links-box">
-                            <h2>Links</h2>
-                            <Link to="/admin/about" onClick={this.closeNav}>About</Link>
-                            <Link to="/admin/products" onClick={this.closeNav}>Products</Link>
-                            <Link to="/admin/contact" onClick={this.closeNav}>Contact</Link>
+                            <h2>Pagini</h2>
+                            <Link to="/echipa">Echipă</Link>
+                            <Link to="/oferte">Oferte</Link>
+                            <Link to="/interventii">Intervenții</Link>
+                            <Link to="/ghid-medical">Ghid Medical</Link>
+                            <Link to="/contact">Contact</Link>
                         </div>
                         <div className="footer-item media">
                             <h2>Media</h2>

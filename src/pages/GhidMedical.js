@@ -15,7 +15,7 @@ class GhidMedical extends React.Component {
         <div className='main-container'>
           <Tabs className='tabs-all'>
             <TabList className='tabs-field'>
-              <Tab><div className='tab-cta'>Parodontoza</div></Tab>
+              <Tab><div className='tab-cta'>Parodontoză</div></Tab>
               <Tab><div className='tab-cta'>Efecte adverse</div></Tab>
               <Tab><div className='tab-cta'>Abcesul dentar</div></Tab>
             </TabList>
@@ -25,13 +25,13 @@ class GhidMedical extends React.Component {
 
               <div className="two-col">
                 <div className="simple-col">
-                  <h2>Parodontoza</h2>
-                  <p>Parodontita marginala profunda, cunoscuta popular sub numele de parodontoza este o afectiune inflamatorie a aparatului de sustinere a dintelui,
-                  numit parodontiu marginal. Parodontoza afecteaza atat gingia cat si structurile profunde ale parodontiului : ligamentele parodontale si osul alveolar.
-                  Parodontoza este o boala distructiva care cauzeaza pierderea atasamentului gingival urmata de resorbtia progresiva a ligamentelor periodontale si a osului alveolar.
-                  Netratata, parodontoza va conduce la aparitia mobilitatii dentare si pierderea ulterioara a dintilor.
-                  La fel ca toate bolile parodontale, parodontoza este cauzata de bacteriile si microorganismele din placa dentara.
-                  Majoritatea specialistilor sunt de acord ca parodontoza este intotdeauna precedata de gingivita.
+                  <h2>Parodontoză</h2>
+                  <p>Parodontita marginală profundă, cunoscută popular sub numele de parodontoză este o afecțiune inflamatorie a aparatului de susținere a dintelui,
+                  numit parodonțiu marginal. Parodontoza afectează atât gingia cât și structurile profunde ale parodonțiului : ligamentele parodontale și osul alveolar.
+                  Parodontoza este o boală distructivă care cauzează pierderea atașamentului gingival urmată de resorbția progresivă a ligamentelor periodontale și a osului alveolar.
+                  Netratata, parodontoza vă conduce la apariția mobilității dentare și pierderea ulterioară a dinților.
+                  La fel ca toate bolile parodontale, parodontoza este cauzată de bacteriile și microorganismele din placa dentară.
+                  Majoritatea specialiștilor sunt de acord că parodontoza este întotdeauna precedată de gingivită.
                   </p>
                 </div>
                 <div className="simple-col">
@@ -40,21 +40,21 @@ class GhidMedical extends React.Component {
               </div>
               <div className="two-col">
                 <div className="simple-col">
-                  <h2>Simptome si semne</h2>
+                  <h2>Simptome și semne</h2>
                   <p>
-                  In fazele initiale, parodontoza are foarte putine simptome; de multe ori, boala a progresat semnificativ inainte ca pacientii sa se prezinte la medic.
-Deoarece gingivita precede intotdeauna parodontoza, semnele clinice ale gingivitei vor fi primele care vor aparea.<br />
-Simptomele si semnele clinice ale parodontozei pot include :
+                  În fazele inițiale, parodontoza are foarte puține simptome; de multe ori, boala a progresat semnificativ înainte ca pacienții să se prezinte la medic.
+Deoarece gingivita precede întotdeauna parodontoza, semnele clinice ale gingivitei vor fi primele care vor apărea.
+Simptomele și semnele clinice ale parodontozei pot include :
                   </p>
                     <ul>
-                      <li><i className='fas'>&#xf101;</i>Gingii rosii si tumefiate care pot recidiva periodic.</li>
-                      <li><i className='fas'>&#xf101;</i>Sangerare gingivala care apare dupa periajul dentar, folosirea atei dentare sau muscarea unui aliment dur.<br />
-                      Sangerarea gingivala apare si in cazul gingivitei. Diferenta este ca, in cazul parodontozei atasamentul gingival este distrus.</li>
-                      <li><i className='fas'>&#xf101;</i>Pacientii pot scuipa sange in urma periajului dentar.</li>
-                      <li><i className='fas'>&#xf101;</i>Retractie gingivala, avand ca rezultat "alungirea dintilor".</li>
-                      <li><i className='fas'>&#xf101;</i>Halitoza sau respiratie urat mirositoare si un gust metalic in cavitatea bucala</li>
-                      <li><i className='fas'>&#xf101;</i>Aparitia pungilor parodontale. Pungile parodontale sunt zone situate sub gingie unde atasamentul gingival a fost distrus.
-                      Aceste spatii pot fi ocupate de bacterii sau celule moarte favorizand agravarea bolii</li>
+                      <li><i className='fas'>&#xf101;</i>Gingii roșii și tumefiate care pot recidiva periodic.</li>
+                      <li><i className='fas'>&#xf101;</i>Sângerare gingivală care apare după periajul dentar, folosirea aței dentare sau mușcarea unui aliment dur.<br />
+                      Sângerarea gingivală apare și în cazul gingivitei. Diferența este că, în cazul parodontozei atașamentul gingival este distrus.</li>
+                      <li><i className='fas'>&#xf101;</i>Pacienții pot scuipa sânge în urma periajului dentar.</li>
+                      <li><i className='fas'>&#xf101;</i>Retracție gingivală, având ca rezultat "alungirea dinților".</li>
+                      <li><i className='fas'>&#xf101;</i>Halitoză sau respirație urat mirositoare și un gust metalic în cavitatea bucală</li>
+                      <li><i className='fas'>&#xf101;</i>Apariția pungilor parodontale. Pungile parodontale sunt zone situate sub gingie unde atașamentul gingival a fost distrus.
+                      Aceste spații pot fi ocupate de bacterii sau celule moarte favorizând agravarea bolii</li>
                     </ul>
 
                 </div>
@@ -65,17 +65,17 @@ Simptomele si semnele clinice ale parodontozei pot include :
               <div className="two-col">
                 <div className="simple-col">
                 <h2>Stabilirea diagnosticului</h2>
-                <p>Diagnosticul de parodontoza se stabileste in urma examinarii clinice si a evaluarii radiografiilor dentare.
-                Examinarea clinica consta in inspectia si palparea gingiei din jurul dintilor cu ajutorul sondei dentare.
-                Radiografiile vor stabili cantitatea de os pierduta din jurul fiecarui dinte<br />
+                <p>Diagnosticul de parodontoză se stabilește în urma examinării clinice și a evaluării radiografiilor dentare.
+                Examinarea clinică constă în inspecția și palparea gingiei din jurul dinților cu ajutorul sondei dentare.
+                Radiografiile vor stabili cantitatea de os pierdută din jurul fiecărui dinte<br />
 
                 <span><strong>~&nbsp;Specialistii nostri te ajuta sa vindeci parodontoza&nbsp;~</strong></span></p>
                 </div>
               </div>
               <div className="two-col">
                 <div className="simple-col">
-                  <p className='global-text-blue'><strong>VREI SA SCAPI DE ACEASTA AFECTIUNE?</strong></p>
-                  <a className='global-cta' href="/contact">APASA AICI</a>
+                  <p className='global-text-blue'><strong>VREI SĂ SCAPI DE ACEASTĂ AFECȚIUNE?</strong></p>
+                  <a className='global-cta' href="/contact">APASĂ AICI</a>
                 </div>
               </div>
             </TabPanel>
@@ -84,8 +84,8 @@ Simptomele si semnele clinice ale parodontozei pot include :
               <div className="two-col">
                 <div className="simple-col">
                   <h2>Efectele adverse ale medicamentelor
-                  asupra cavitatii orale</h2>
-                  <p>O mare parte dintre medicamentele existente pe piata, inclusiv suplimentele,  pot avea efecte neplacute asupra cavitatii bucale.</p>
+                  asupra cavitații orale</h2>
+                  <p>O mare parte dintre medicamentele existente pe piață, inclusiv suplimentele,  pot avea efecte neplăcute asupra cavitații bucale.</p>
                 </div>
                 <div className="simple-col">
                   <img src="./images/simptome1.png" alt="dsgdfs"/>
@@ -93,10 +93,10 @@ Simptomele si semnele clinice ale parodontozei pot include :
               </div>
               <div className="two-col">
                 <div className="full-col">
-                  <h2>Cele mai frecvente efecte neplacute ale medicamentelor asupa cavitatii orale:</h2>
+                  <h2>Cele mai frecvente efecte neplăcute ale medicamentelor asupa cavității orale:</h2>
                   <ul>
                     <li><i className='fas'>&#xf101;</i>xerostomia sau senzaţia de uscăciune a gurii</li>
-                    <li><i className='fas'>&#xf101;</i>sangerare gingivala</li>
+                    <li><i className='fas'>&#xf101;</i>sângerare gingivală</li>
                     <li><i className='fas'>&#xf101;</i>alterarea simţului gustativ</li>
                     <li><i className='fas'>&#xf101;</i>inflamaţie, ulceraţii sau modificări de culoare la nivelul ţesuturilor cavităţii orale</li>
                     <li><i className='fas'>&#xf101;</i>coloraţia dinţilor</li>
@@ -149,7 +149,7 @@ Simptomele si semnele clinice ale parodontozei pot include :
                 <div className="simple-col">
                   <p className='global-text-blue'><strong>VREI SA FII CONSULTAT DE UNII
                   DINTRE SPECIALISTII NOSTRI ?</strong></p>
-                  <a className='global-cta' href="/contact">APASA AICI</a>
+                  <a className='global-cta' href="/contact">APASĂ AICI</a>
                 </div>
               </div>
             </TabPanel>
@@ -159,12 +159,12 @@ Simptomele si semnele clinice ale parodontozei pot include :
               <div className="two-col">
                 <div className="simple-col">
                   <h2>Efectele adverse ale medicamentelor
-                  asupra cavitatii orale</h2>
-                  <p>Abcesul dentar este una din cele mai frecvente urgente stomatologice. Abcesul dentar este o infectie bacteriana care se manifesta prin aparitia unei
-                  colectii de puroi la varful sau in partea laterala a unui dinte.
-                  Abcesele dentare se pot forma in diverse zone ale cavitatii bucale; netratate, acestea pot difuza in zonele si tesuturile invecinate
-                  provocand uneori infectii extrem de grave.
-                  Din acest motiv, pacientii care observa aparitia unui abces dentar trebuie sa consulte cat mai repede un medic stomatolog.</p>
+                  asupra cavitații orale</h2>
+                  <p>Abcesul dentar este una din cele mai frecvente urgențe stomatologice. Abcesul dentar este o infecție bacteriană care se manifestă prin apariția unei
+                  colecții de puroi la vârful sau în partea laterală a unui dinte.
+                  Abcesele dentare se pot forma în diverse zone ale cavitații bucale; netratate, acestea pot difuza în zonele și țesuturile învecinate
+                  provocând uneori infecții extrem de grave.
+                  Din acest motiv, pacienții care observă apariția unui abces dentar trebuie să consulte cât mai repede un medic stomatolog.</p>
                 </div>
                 <div className="simple-col">
                   <h2>Abces periodontal</h2>
@@ -175,31 +175,31 @@ Simptomele si semnele clinice ale parodontozei pot include :
               <div className="two-col">
                 <div className="simple-col">
                   <h2>Simptome si semne</h2>
-                  <p>Abcesele dentare se pot forma extrem de rapid. Cel mai neplacut simptom pentru pacienti este durerea intensa care poate difuza si in zonele
-                  invecinate: cap, gat, urechi, obraz. Totusi, nu toate abcesele dentare evolueaza cu dureri. Uneori, pacientii nu experimenteaza
-                  dureri (sau acestea sunt de intensitate redusa) fiind vizibila doar colectia purulenta care apare ca o umflatura in dreptul dintelui afectat.</p>
-                  <h2>Ce alte simptome si semne pot aparea ?</h2>
+                  <p>Abcesele dentare se pot forma extrem de rapid. Cel mai neplăcut simptom pentru pacienți este durerea intensă care poate difuza și în zonele
+                  învecinate: cap, gât, urechi, obraz. Totuși, nu toate abcesele dentare evoluează cu dureri. Uneori, pacienții nu experimentează
+                  dureri (sau acestea sunt de intensitate redusă) fiind vizibilă doar colecția purulenta care apare ca o umflatură în dreptul dintelui afectat.</p>
+                  <h2>Ce alte simptome și semne pot apărea ?</h2>
                   <ul>
-                    <li><i className='fas'>&#xf101;</i>dureri pulsatile la nivelul dintelui afectat care cresc treptat in intensitate</li>
-                    <li><i className='fas'>&#xf101;</i>dureri la nivelul gatului, urechii sau osului maxilar de aceeasi parte cu dintele afectat</li>
-                    <li><i className='fas'>&#xf101;</i>durerile cresc in intensitate:
+                    <li><i className='fas'>&#xf101;</i>dureri pulsatile la nivelul dintelui afectat care cresc treptat în intensitate</li>
+                    <li><i className='fas'>&#xf101;</i>dureri la nivelul gâtului, urechii sau osului maxilar de aceeași parte cu dintele afectat</li>
+                    <li><i className='fas'>&#xf101;</i>durerile cresc în intensitate:
                       <ul>
-                        <li><i className='fas'>&#xf105;</i>in timpul masticatiei</li>
-                        <li><i className='fas'>&#xf105;</i>in pozitia culcat</li>
+                        <li><i className='fas'>&#xf105;</i>în timpul masticației</li>
+                        <li><i className='fas'>&#xf105;</i>în poziția culcat</li>
                         <li><i className='fas'>&#xf105;</i>la atingerea dintelui</li>
                         <li><i className='fas'>&#xf105;</i>la cald</li>
                       </ul>
                     </li>
-                    <li><i className='fas'>&#xf101;</i>respiratie urat mirositoare si/sau un gust neplacut in gura</li>
-                    <li><i className='fas'>&#xf101;</i>dificultati la masticatie si/sau inghitirea alimentelor</li>
-                    <li><i className='fas'>&#xf101;</i>aparitia unei colectii de puroi sub forma unei umflaturi (sau tumefieri) in dreptul dintelui afectat (fie spre obraz fie spre limba sau palat)</li>
-                    <li><i className='fas'>&#xf101;</i>gingia la acest nivel este rosie si tumefiata</li>
-                    <li><i className='fas'>&#xf101;</i>dintele isi poate schimba culoarea si poate deveni mobil</li>
-                    <li><i className='fas'>&#xf101;</i>in cazul abceselor mai mari, tumefierea obrazului sau fetei in partea corespunzatoare acestuia</li>
-                    <li><i className='fas'>&#xf101;</i>daca abcesul a difuzat in zonele invecinate, pacientul poate dezvolta febra, frisoane, dureri de cap si stare generala alterata</li>
+                    <li><i className='fas'>&#xf101;</i>respirație urât mirositoare și/sau un gust neplăcut în gură</li>
+                    <li><i className='fas'>&#xf101;</i>dificultăți la masticație și/sau înghițirea alimentelor</li>
+                    <li><i className='fas'>&#xf101;</i>apariția unei colecții de puroi sub forma unei umflături (sau tumefieri) în dreptul dintelui afectat (fie spre obraz fie spre limbă sau palat)</li>
+                    <li><i className='fas'>&#xf101;</i>gingia la acest nivel este roșie și tumefiată</li>
+                    <li><i className='fas'>&#xf101;</i>dintele își poate schimbă culoarea și poate deveni mobil</li>
+                    <li><i className='fas'>&#xf101;</i>în cazul abceselor mai mari, tumefierea obrazului sau feței în partea corespunzătoare acestuia</li>
+                    <li><i className='fas'>&#xf101;</i>dacă abcesul a difuzat în zonele învecinate, pacientul poate dezvolta febră, frisoane, dureri de cap și stare generală alterată</li>
                   </ul>
-                  <p>Abcesul este rezultatul neglijarii igienei si a neglijarii vizitelor periodice la dentist. Dintii pot fi afectati foarte grav de un astfel de abces netratat,
-                  iar antibioticele nu sunt decat o solutie temporara si numai in situatia in care pacientul nu poate ajunge in cabinetul medical.</p>
+                  <p>Abcesul este rezultatul neglijării igienei și a neglijării vizitelor periodice la dentist. Dinții pot fi afectați foarte grav de un astfel de abces netratat,
+                  iar antibioticele nu sunt decât o soluție temporară și numai în situația în care pacientul nu poate ajunge în cabinetul medical.</p>
                 </div>
                 <div className="simple-col">
                   <h2>Abces gingival</h2>
@@ -212,10 +212,10 @@ Simptomele si semnele clinice ale parodontozei pot include :
               <div className="two-col">
                 <div className="simple-col">
                   <p className='global-text-blue'>
-                    <strong>~       Echipa noastra de specialisti te ajuta sa tratezi cu succes abcesul dentar ~</strong> <br /><br />
-                    <strong>Vrei sa scapi de aceasta afectiune?</strong>
+                    <strong>~       Echipa noastră de specialiști te ajută să tratezi cu succes abcesul dentar ~</strong> <br /><br />
+                    <strong>Vrei să scapi de această afecțiune?</strong>
                   </p>
-                  <a className='global-cta' href="/contact">APASA AICI</a>
+                  <a className='global-cta' href="/contact">APASĂ AICI</a>
                 </div>
               </div>
             </TabPanel>
