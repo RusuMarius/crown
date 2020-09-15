@@ -12,6 +12,7 @@ import GhidMedical from './pages/GhidMedical';
 import ScrollToTop from './components/ScrollToTop';
 import ModalMain from './components/Modal';
 import Error from './components/Error';
+import Covidpage from './pages/Covidpage';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -31,6 +32,7 @@ function App() {
               <Route path="/interventii" component={Interventii}/>
               <Route path="/ghid-medical" component={GhidMedical}/>
               <Route path="/contact" component={Contact}/>
+              <Route path="/covid-info" component={Covidpage}/>
               <Route component={Error}/>
             </Switch>
           </div>

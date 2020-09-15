@@ -6,6 +6,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Slider from '../components/Slider';
 import {Helmet} from 'react-helmet';
 import Video2 from './images/crown-video.mp4';
+import { Player, BigPlayButton } from 'video-react';
 
 class Homepage extends React.Component {
 
@@ -76,7 +77,12 @@ class Homepage extends React.Component {
 					<Slider/>
 					<div className="filosofy">
 						<div className="main-container filosofy-video">
-							<div className="video-box"><video className='video-home' controls poster='./images/aparat2.png' src={Video2} type="video/mp4"></video></div>
+							<div className="video-box">
+
+								<Player className='video-home' poster='./images/aparat2.png' src={Video2}>
+									<BigPlayButton position="center" />
+								</Player>
+							</div>
 							<div className="text">
 								<h2>Descoperă tehnologia progresivă</h2>
 								<p>Specialiștii noștri au integrat cu succes tratamentul laser în toate tipurile de tratament stomatologic, de la
