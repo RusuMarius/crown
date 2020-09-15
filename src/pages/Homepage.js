@@ -8,6 +8,7 @@ import {Helmet} from 'react-helmet';
 import Video2 from './images/crown-video.mp4';
 import { Player, BigPlayButton } from 'video-react';
 
+
 class Homepage extends React.Component {
 
 	render() {
