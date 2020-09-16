@@ -11,7 +11,7 @@ class Covidpage extends React.Component {
 					<meta name="description" content="Estetica dentara, Implantologie, Parodontologie" />
 				</Helmet>
 				<div className='main-container'>
-					<Link className='global-cta' to="/">Revino la pagina principala</Link><br /><br />
+					<Link className='global-cta' to="/">Revino la pagina principală</Link><br /><br />
 					<p className='paragraph-green'>Protocoalele noastre de igienizare, control al infecțiilor și măsurile de distanțare socială includ următoarele:</p>
 
 					<ul>
